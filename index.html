@@ -10,10 +10,16 @@
    <img src="img/Group 12.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
     </a>
         <ul>
-          <li><a href=""><img src="img/svg-technomart/icon-search.svg" width="17" height="17" alt="Поиск">Поиск</a></li>
-          <li><a href=""><img src="img/svg-technomart/icon-bookmark.svg" width="14" height="16" alt="Закладки">Закладки</a></li>
-          <li><a href=""><img src="img/svg-technomart/icon-cart.svg" width="15" height="15" alt="Корзина">Корзина</a></li>
-          <li><a href="">Оформить заказ</a></li>
+          <li><button type="button"><a href="">
+            <img src="img/svg-technomart/icon-search.svg" width="17" height="17" alt="Поиск">Поиск</a></li>
+            </button>
+          <li><button type="button"><a href="">
+            <img src="img/svg-technomart/icon-bookmark.svg" width="14" height="16" alt="Закладки">Закладки:0</a></li>
+            </button>
+          <li><button type="button"><a href="">
+            <img src="img/svg-technomart/icon-cart.svg" width="15" height="15" alt="Корзина">Корзина:0</a></li>
+            </button>
+          <li><button type="button"><a href="">Оформить заказ</button></a></li>
         </ul>
     <section>
     <p>Интернет магазин<br>
@@ -21,23 +27,29 @@
       и инструментов для ремонта</p>
     </section>
     <section>
-    <p><img src="img/svg-technomart/icon-phone.svg" width="19" height="19" alt="Телефон">+7(812)555-05-55<br>
+    <p>
+      <button>
+        <img src="img/svg-technomart/icon-phone.svg" width="19" height="19" alt="Телефон">+7(812)555-05-55
+      </button><br>
     г.Санкт-Петербург,ул Б.Конюшенная,д.19/8
     </p>
     </section>
     <section>
-      <p><a href=""><img src="img/svg-technomart/icon-login.svg" width="19" height="19" alt="Вход">Вход</a></p>
-      <p><a href="">Регистрация</a></p>
+      <p><a href="">
+        <button type="submit"><img src="img/svg-technomart/icon-login.svg" width="20" height="17" alt="Вход">
+          Вход
+        </button></a></p>
+      <p><a href=""><button type="submit">Регистрация</button</a></p>
     </section>
     <nav>
       <ul>
-       <li><a href="">Главная</a></li>
-       <li><a href="">Компания</a></li>
-       <li><a href="">Каталог</a></li>
-       <li><a href="">Новости</a></li>
-       <li><a href="">Спецпредложения</a></li>
-       <li><a href="">Доставка</a></li>
-       <li><a href="">Контакты</a></li>
+       <li><a href=""><button>Главная</button></a></li>
+       <li><a href=""><button>Компания</button></a></li>
+       <li><a href=""><button>Каталог</button></a></li>
+       <li><a href=""><button>Новости</button></a></li>
+       <li><a href=""><button>Спецпредложения</button></a></li>
+       <li><a href=""><button>Доставка</button></a></li>
+       <li><a href=""><button>Контакты</button></a></li>
       </ul>
     </nav>
   </header>
@@ -55,7 +67,7 @@
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-      <a href=""><img src="img/format png/Кнопка.png" width="220" height="38">ПОДРОБНЕЕ О КОМПАНИИ</a>
+      <a href=""><input type="image" src="img/format png/Кнопка.png" alt="О КОМПАНИИ">ПОДРОБНЕЕ О КОМПАНИИ</a>
     </section>
     <section>
       <h2>КОНТАКТЫ</h2>
@@ -65,7 +77,7 @@
       <a href="">
         <img src="img/format jpeg/Object.jpg" width="300" height="158" alt="Карта"
       </a>
-      <a href=""><img src="img/format png/Кнопка2.png" width="300" height="38">ЗАБЛУДИЛИСЬ?НАПИШИТЕ НАМ!</a>
+      <a href=""><input type="image" src="img/format png/Кнопка2.png" alt="НАПИШИТЕ НАМ">ЗАБЛУДИЛИСЬ?НАПИШИТЕ НАМ!</a>
     </section>
   </main>
     <footer>
@@ -95,9 +107,9 @@
       </section>
       <section>
         <ul>
-          <li><a href=""><img src="img/format svg/Вконтакте.svg" width="44" height="44" alt="Вконтакте">Вконтакте</a></li>
-          <li><a href=""><img src="img/format svg/Фейсбук.svg" width="44" height="44" alt="Фейсбук">Фейсбук</a></li>
-          <li><a href=""><img src="img/format svg/Инстаграм.svg" width="44" height="44" alt="Инстаграм">Инстаграм</a></li>
+          <li><a href=""><input type="image" src="img/format svg/Вконтакте.svg" alt="Вконтакте">Вконтакте</a></li>
+          <li><a href=""><input type="image" src="img/format svg/Фейсбук.svg"  alt="Фейсбук">Фейсбук</a></li>
+          <li><a href=""><input type="image" src="img/format svg/Инстаграм.svg"  alt="Инстаграм">Инстаграм</a></li>
         </ul>
       </section>
       <p>Обратная связь:
@@ -107,7 +119,27 @@
         Разработано:
         <a href="https://htmlacademy.ru">htmlacademy.ru</a>
       </p>
-
     </footer>
+    <section>
+      <img src="img/format png/map popup.png" width="943" height="449">
+    </section>
+    <section>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+        <label for="login">Ваш e-mail:</label>
+        <input type="email" name="login" id="login" placeholder="email@exampel.com">
+        </p>
+        <p>
+        <label for="letter">Текст письма:</label>
+        <textarea id="letter" rows="10" cols="60">В свободной форме
+        </textarea>
+        <input type="submit" value="Отправить">
+        </p>
+      </form>
+    </section>
   </body>
 </html>
