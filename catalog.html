@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -7,20 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Техномарт</title>
   </head>
-  <body>
+  <body class="page-body">
     <header>
      <div class="main-header">
       <a class="main-header-logo" href="index.html">
      <img src="img/Group 12.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
       </a>
       <ul>
-        <ul class="list">
+        <ul class="list-main">
          <li class="item"><a href="">Поиск</a></li>
          <li class="item"><a href="">Закладки:0</a></li>
          <li class="item"><a href="">Корзина:10</a></li>
          <li class="item"><a href="">Оформить заказ</a></li>
         </ul>
      </div>
+     <div class="main-info">
      <section>
       <p class="desc">Интернет магазин<br>
         строительных материалов<br>
@@ -35,11 +36,12 @@
       </p>
       </section>
       <section>
-         <a class="login" href="">Равшан Джамшутович</a>
-          <a href="">Мои заказы</a>
-          <a href="">Личный кабинет</a>
+         <a class="login" href="#">Равшан Джамшутович</a>
+          <a class="login-orders" href="#">Мои заказы</a>
+          <a class="login-account"  href="#">Личный кабинет</a>
       </section>
-      <nav>
+      </div>
+      <nav class="main-navigation">
         <ul class="nav__list">
          <li>
            <a href="">Главная</a></li>
@@ -67,10 +69,10 @@
       <section>
         <h2>ПЕРФОРАТОРЫ</h2>
         </section>
-        <section>
+        <section class="filter">
         <h3>ПРОИЗВОДИТЕЛИ:</h3>
         <form action="https://echo.htmlacademy.ru" method="get">
-        <fieldset>
+        <fieldset class="filter-checkbox">
           <input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
           <label for="filter-BOSCH">BOSCH</label>
           <input type="checkbox" name="ИНТЕРСКОЛ" id="filter-ИНТЕРСКОЛ">
@@ -82,10 +84,8 @@
           <input type="checkbox" name="HITACHI" id="filter-HITACHI">
           <label for="filter-HITACHI">HITACHI</label>
         </fieldset>
-        </section>
-        <section>
           <h3>ПИТАНИЕ:</h3>
-        <fieldset>
+        <fieldset class="filter-radio">
           <input type="radio" name="power" id="rechargeable" checked>
           <label for="rechargeable">АККУМУЛЯТОРНЫЕ</label>
           <input type="radio" name="power" id="network">
@@ -93,6 +93,7 @@
        </fieldset>
          <button type="button">ПОКАЗАТЬ</button>
       </section>
+      <div class="product">
       <section class="product-list">
           <img src="img/format png/BFG 3000.png" width="144" height="128" alt="Перфоратор BFG 3000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 3000</h3>
@@ -147,8 +148,10 @@
           <h3 class="heading">Перфоратор BOSCH<br>BFG 2000</h3>
           <span class="card-price">12500</span>
       </section>
+    </div>
     </main>
     <footer>
+      <div class="main-footer">
       <section class="footer-contacts">
         <h2><img src="img/format png/logo,technomart.png" width="220" height="68" alt="Логотип Техномарт">ТЕХНОМАРТ</h2>
         <p class="footer-info">г.Санкт-Петербург,ул Б.Конюшенная,д.19/8<br>
@@ -169,6 +172,7 @@
           <li class="item"><a href="">Спецпредложения</a></li>
         </ul>
       </section>
+      </div>
       <div class="container">
       <section>
         <p class="footer-copiright">
