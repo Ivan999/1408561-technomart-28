@@ -13,25 +13,25 @@
       <a class="main-header-logo" href="index.html">
      <img src="img/Group 12.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
       </a>
+           <form class="page-container__search" action="#" method="POST">
+             <input type="search" placeholder="Поиск:">
+           </form>
         <ul class="main-list">
-         <li class="item"><a href="">Поиск</a></li>
-         <li class="item"><a href="">Закладки:0</a></li>
-         <li class="item"><a href="">Корзина:10</a></li>
+         <li class="item"><a href="">Закладки: 0</a></li>
+         <li class="item"><a href="">Корзина: 10</a></li>
          <li class="item"><a href="">Оформить заказ</a></li>
         </ul>
      </div>
      <div class="main-info">
-     <section>
-      <p class="desc">Интернет магазин<br>
-        строительных материалов<br>
-        и инструментов для ремонта</p>
-     </section>
+      <i class="desc">Интернет магазин
+        строительных материалов
+        и инструментов для ремонта</i>
      <section>
       <p class="info">
         <a class="phone" href="tel:+7(812)555-05-55">
-          +7(812)555-05-55
+          +7 (812) 555-05-55
         </a>
-      г.Санкт-Петербург,ул Б.Конюшенная,д.19/8
+      г. Санкт-Петербург, ул Б. Конюшенная, д. 19/8
       </p>
       </section>
       <section>
@@ -41,28 +41,31 @@
       </section>
       </div>
       <nav class="main-navigation">
-           <a href="">Главная</a>
-           <a href="">Компания</a>
-           <a href="">Каталог</a>
-           <a href="">Новости</a>
-           <a href="">Спецпредложения</a>
-           <a href="">Доставка</a>
-           <a href="">Контакты</a>
+        <a href="">Главная</a>
+        <a href="">Компания</a>
+        <a href="">Каталог</a>
+        <a href="">Новости</a>
+        <a href="">Спецпредложения</a>
+        <a href="">Доставка</a>
+        <a href="">Контакты</a>
       </nav>
     </header>
     <main>
-    <section class="breadcrumbs">
-        <a href="">Каталог</a>
-        <a href="">Инструмент</a>
-        <a href="">Перфораторы</a>
-      </section>
-      <section>
-        <h2>ПЕРФОРАТОРЫ</h2>
-        </section>
+      <h1>ПЕРФОРАТОРЫ</h1>
+      <ul>
+        <li><a class="breadcrumbs-link" href="">Домой</a></li>
+        <li><a class="breadcrumbs-link" href="">Каталог</a></li>
+        <li><a class="breadcrumbs-link" href="">Инструмент</a></li>
+        <li><a class="breadcrumbs-link" href="">Перфораторы</a></li>
+      </ul>
         <section class="filter">
-        <h3>ПРОИЗВОДИТЕЛИ:</h3>
+          <h2>Фильтр:</h2>
         <form action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Цена</legend>
+          </fieldset>
         <fieldset class="filter-checkbox">
+          <legend>ПРОИЗВОДИТЕЛИ:</legend>
           <input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
           <label for="filter-BOSCH">BOSCH</label>
           <input type="checkbox" name="ИНТЕРСКОЛ" id="filter-ИНТЕРСКОЛ">
@@ -74,71 +77,74 @@
           <input type="checkbox" name="HITACHI" id="filter-HITACHI">
           <label for="filter-HITACHI">HITACHI</label>
         </fieldset>
-          <h3>ПИТАНИЕ:</h3>
         <fieldset class="filter-radio">
+          <legend>ПИТАНИЕ:</legend>
           <input type="radio" name="power" id="rechargeable" checked>
           <label for="rechargeable">АККУМУЛЯТОРНЫЕ</label>
           <input type="radio" name="power" id="network">
           <label for="network">СЕТЕВЫЕ</label>
-       </fieldset>
+        </fieldset>
          <button type="button">ПОКАЗАТЬ</button>
-      </section>
-      <div class="product">
-      <section class="product-list">
+        </section>
+      <section class="product">
+        <ul>
+      <li class="product-list">
           <img src="img/format png/BFG 3000.png" width="144" height="128" alt="Перфоратор BFG 3000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 3000</h3>
-          <del>22500</del>
+          <s>22500</s>
           <span class="card-price">15500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <img src="img/format png/BFG 6000.png" width="144" height="128" alt="Перфоратор BFG 6000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 6000</h3>
-          <del>30500</del>
+          <s>30500</s>
           <span class="card-price">25500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <a href="">КУПИТЬ</a>
           <a href="">В ЗАКЛАДКИ</a>
           <h3 class="heading">Перфоратор BOSCH<br>BFG 2000</h3></li>
           <span class="card-price">12500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <img src="img/format png/BFG 3000.png" width="144" height="128" alt="Перфоратор BFG 3000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 3000</h3></li>
-          <del>22500</del>
+          <s>22500</s>
           <span class="card-price">15500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           new
           <img src="img/format png/BFG 6000.png" width="144" height="128" alt="Перфоратор BFG 6000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 6000</h3>
-          <del>30500</del>
+          <s>30500</s>
           <span class="card-price">25500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <img src="img/format png/BFG 2000.png" width="144" height="128" alt="Перфоратор BFG 2000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 2000</h3>
           <span class="card-price">15500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           new
           <img src="img/format png/BFG 3000.png" width="144" height="128" alt="Перфоратор BFG 3000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 3000</h3>
-          <del>22500</del>
+          <s>22500</s>
           <span class="card-price">15500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <img src="img/format png/BFG 6000.png" width="144" height="128" alt="Перфоратор BFG 6000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 6000</h3>
-          <del>30500</del>
+          <s>30500</s>
           <span class="card-price">25500</span>
-      </section>
-      <section class="product-list">
+      </li>
+      <li class="product-list">
           <img src="img/format png/BFG 2000.png" width="144" height="128" alt="Перфоратор BFG 2000">
           <h3 class="heading">Перфоратор BOSCH<br>BFG 2000</h3>
           <span class="card-price">12500</span>
-      </section>
-    </div>
+      </li>
+      </ul>
+    </section>
+  </div>
     </main>
     <footer>
       <div class="main-footer">
